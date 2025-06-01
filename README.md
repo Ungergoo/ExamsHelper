@@ -4,6 +4,6 @@
 
 ## 📦 Установка
 ```bash
-git clone https://github.com/ваш-логин/TicketGenerator.git
-cd TicketGenerator
+git clone https://github.com/Ungergoo/ExamsHelper
+cd ExamsHelper
 pip install -r requirements.txt
