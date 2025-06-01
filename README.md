@@ -15,6 +15,11 @@ git clone https://github.com/Ungergoo/ExamsHelper
 cd ExamsHelper
 pip install -r requirements.txt
 ```
+## Обновление
+```bash
+cd /путь/к/ExamsHelper/
+git pull origin main
+```
 ## ▶️: Запуск
 ```bash
 python TextParser.py
