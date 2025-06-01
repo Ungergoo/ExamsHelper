@@ -15,7 +15,7 @@ git clone https://github.com/Ungergoo/ExamsHelper
 cd ExamsHelper
 pip install -r requirements.txt
 ```
-## Обновление
+## ♻️: Обновление
 ```bash
 cd /путь/к/ExamsHelper/
 git pull origin main
