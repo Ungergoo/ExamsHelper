@@ -1,10 +1,10 @@
-import fitz
+import pymupdf
 from tkinter import *
 from random import randrange
 #func for extracting bold text and giving random bold texts with PyMuPDF(fitz)
 def extract_bold_text(filename):
     n = 0
-    doc = fitz.open(filename)
+    doc = pymupdf.open(filename)
     bold_text = []
     for page in doc:
         blocks = page.get_text("dict")["blocks"]
